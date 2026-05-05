@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+    <title>Drawer</title>
+  </head>
+  <body>
+    <div id="furniture">
+        <img src="pictures/Moebel-Hintergrund.png" alt="furniture">
+
+        <img src="pictures/Drawer-Bottom.png" id="drawer_2" class="drawer" alt="furniture">
+        <img src="pictures/Moebel-Bottom.png" alt="furniture">
+
+        <img src="pictures/Drawer-Middle.png" id="drawer_1" class="drawer" lt="furniture">
+        <img src="pictures/Moebel-Middle.png" alt="furniture">
+        
+        <img src="pictures/Drawer-Top.png" id="drawer_0" class="drawer" alt="furniture" >
+        <img src="pictures/Moebel-Top.png" alt="furniture">
+
+        <div id="animation_dario" class="animation_dario_closed"></div>
+
+        <div id="animation_projects" class="animation_projects_closed"></div>
+
+        <div id="overlay" >
+          <div class="drawer_overlay" onclick="drawerClick(0)"></div>
+          <div class="drawer_overlay" onclick="drawerClick(1)"></div>
+          <div class="drawer_overlay" onclick="drawerClick(2)"></div>
+        </div>
+    </div>
+  </body>
+</html>

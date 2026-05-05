@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    position: absolute;
+    width: 800px;
+}
+
+#furniture{
+    margin: 10% auto;
+    width: 800px;
+}
+
+#overlay{
+   width: 800px;
+    position: relative;
+    padding-top: 165px;
+    padding-left: 300px;
+    box-sizing: border-box;
+}
+
+.overlay_open{
+    padding-top: 268px;
+    padding-left: 396px;
+}
+
+
+.drawer_overlay{
+    height: 72px;
+    width: 170px;
+    margin-bottom: 34px;
+}
+
+.drawer{
+    transition:  margin 0.2s;
+}
+
+.drawer_open{
+    margin-top: 102px;
+    margin-left: 94px;
+}
+
+
+
+
+
+#animation_dario{
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    background-size: contain;
+    
+}
+
+.animation_dario_closed{
+    opacity: 0;
+}
+
+.animation_dario_open{
+    animation-name: animationDario;
+    animation-duration: 0.4s;
+    background-image: url("pictures/Animation-Dario-6.png");
+}
+
+@keyframes animationDario {
+    0%  { opacity: 0;}
+    49%  { opacity: 0;}
+    50% { opacity: 1; background-image: url("pictures/Animation-Dario-1.png");}
+    60% {background-image: url("pictures/Animation-Dario-2.png");}
+    70% {background-image: url("pictures/Animation-Dario-3.png");}
+    80% {background-image: url("pictures/Animation-Dario-4.png");}
+    90% {background-image: url("pictures/Animation-Dario-5.png");}
+    100%{background-image: url("pictures/Animation-Dario-6.png");}
+}
+
+
+
+
+#animation_projects{
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    background-size: contain;
+    
+}
+
+.animation_projects_closed{
+    opacity: 0;
+}
+
+.animation_projects_open{
+    animation-name: animationProjects;
+    animation-duration: 0.4s;
+    background-image: url("pictures/Animation-Projects-7.png");
+}
+
+@keyframes animationProjects {
+    0%  { opacity: 0;}
+    49%  { opacity: 0;}
+    50% { opacity: 1; background-image: url("pictures/Animation-Projects-1.png");}
+    58%{background-image: url("pictures/Animation-Projects-2.png");}
+    66% {background-image: url("pictures/Animation-Projects-3.png");}
+    74% {background-image: url("pictures/Animation-Projects-4.png");}
+    82% {background-image: url("pictures/Animation-Projects-5.png");}
+    91% {background-image: url("pictures/Animation-Projects-6.png");}
+    100%{background-image: url("pictures/Animation-Projects-7.png");}
+}
